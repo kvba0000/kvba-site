@@ -1,5 +1,15 @@
 "use server";
 
+type PinnedProjectsResponse = {
+  data: {
+    user: {
+      pinnedItems: {
+        nodes: { name: string }[]
+      }
+    }
+  }
+}
+
 export const getPinnedProjects = async (limit: number = 5, user: string = "kvba0000") => {
     if(!process.env.GITHUB_TOKEN) {
         console.warn("GITHUB_TOKEN is not defined! No projects will show up on the website.")
@@ -32,15 +42,7 @@ export const getPinnedProjects = async (limit: number = 5, user: string = "kvba0
 
     if(!resp.ok) return []
 
-    const { data: { user: { pinnedItems: { nodes } } } } = await resp.json<{
-      data: {
-        user: {
-          pinnedItems: {
-            nodes: { name: string }[]
-          }
-        }
-      }
-    }>()
+    const { data: { user: { pinnedItems: { nodes } } } }: PinnedProjectsResponse = await resp.json()
 
     return nodes.map(({ name }) => name)
 }
