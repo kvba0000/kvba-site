@@ -1,0 +1,11 @@
+.biText {
+    background: linear-gradient(
+      to bottom,
+      #D60270 33.33%, 
+      #9B4F96 33.33%, 
+      #9B4F96 66.66%, 
+      #0038A8 66.66% 
+    );
+    background-clip: text;
+    color: rgba(255, 255, 255, 0.3);
+}

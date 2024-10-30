@@ -1,0 +1,40 @@
+@keyframes blinkL {
+    from {
+        content: "> ";
+    }
+    to {
+        content: " >";
+    }
+}
+
+@keyframes blinkR {
+    from {
+        content: " <";
+    }
+    to {
+        content: "< ";
+    }
+}
+
+.featuredProject {
+    &::before, &::after {
+        white-space: pre;
+        padding-inline: 1rem;
+    }
+
+    &:hover {
+        &::before, &::after {
+            animation: none;
+        }
+    }
+
+    &::before {
+        content: " >";
+        animation: blinkL 1s infinite linear;
+    }
+
+    &::after {
+        content: "< ";
+        animation: blinkR 1s infinite linear;
+    }
+}
