@@ -22,7 +22,7 @@ const SOCIALS: Socials = {
         },
         {
             "name": "Bluesky",
-            "link": "https://bsky.app/profile/kuba.lol"
+            "link": "https://bsky.app/profile/meowpa.ws"
         }
     ],
     "contact": [
