@@ -26,7 +26,7 @@ const SOCIALS: Socials = {
         },
         {
             "name": "Discord Server",
-            "https://discord.gg/tqssnTUxDR"
+            "link": "https://discord.gg/tqssnTUxDR"
         }
     ],
     "contact": [
