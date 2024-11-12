@@ -23,6 +23,10 @@ const SOCIALS: Socials = {
         {
             "name": "Bluesky",
             "link": "https://bsky.app/profile/meowpa.ws"
+        },
+        {
+            "name": "Discord Server",
+            "https://discord.gg/tqssnTUxDR"
         }
     ],
     "contact": [
