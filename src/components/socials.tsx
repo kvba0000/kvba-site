@@ -25,7 +25,7 @@ const SOCIALS: Socials = {
             "link": "https://bsky.app/profile/meowpa.ws"
         },
         {
-            "name": "Discord Server",
+            "name": "Discord",
             "link": "https://discord.gg/tqssnTUxDR"
         }
     ],
@@ -42,6 +42,10 @@ const SOCIALS: Socials = {
         {
             "name": "Telegram",
             "link": "https://t.me/kvba0000"
+        },
+        {
+            "name": "Keybase",
+            "link": "https://keybase.io/kvba0000"
         }
     ]
 }
