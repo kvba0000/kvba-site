@@ -32,7 +32,7 @@ const SOCIALS: Socials = {
     "contact": [
         {
             "name": "Email",
-            "link": "mailto:hi@kuba.lol"
+            "link": "mailto:purr@meowpa.ws"
         },
         {
             "name": "Discord",
