@@ -1,4 +1,4 @@
-import NikoLook from "#/img/nikolook.png"
+import NikoLook from "#/img/nikolook.webp"
 import type { Metadata } from "next"
 import Image from "next/image"
 

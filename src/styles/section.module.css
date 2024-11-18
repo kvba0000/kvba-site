@@ -1,0 +1,9 @@
+.separator {
+    &::before {
+        content: "-----";
+    }
+
+    &::after {
+        content: "-----";
+    }
+}
