@@ -37,6 +37,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={robotoMono.className}>
         {children}
+
+        <Script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="e85369cf-ea3e-4d3f-8c48-5068601dd37c"
+        />
       </body>
     </html>
   );
